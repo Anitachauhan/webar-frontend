@@ -1,0 +1,37 @@
+<div *ngIf="product" class="product-page">
+    <div class="product-page-container">
+        <ol class="product-breadcrumbs">
+            <li class="breadcrumb-item"><a [routerLink]="['/web-ar',product.industry]">Home</a></li>
+            <li class="breadcrumb-item"> / <a [routerLink]="['/web-ar',product.industry,product.category]">{{product.category}}</a></li>
+            <li class="breadcrumb-item"> / {{product.name}}</li>
+        </ol>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="product-details-image" [ngStyle]="{'background-image': 'url(\''+ product.product_image_url + '\')'}"></div>
+                <img src={{qrResult}}/>
+                <!-- <div class="product-details-image">
+                    <model-viewer id="dimension-demo" ar ar-modes="webxr" ar-scale="fixed" camera-orbit="-30deg auto auto"
+                    max-camera-orbit="auto 100deg auto" shadow-intensity="1" camera-controls src=product.src
+                    ios-src=product.ios_src alt="A 3D model of an armchair." poster=product.product_image_url
+                    loading="lazy" style="background-color: rgb(238, 238, 238); ">
+                  </model-viewer>
+                </div> -->
+            </div>
+            <div class="col-md-4">
+                <div class="product-details-row">
+                    <div class="product-brand">{{product.category}}</div>
+                    <h1 class="product-title">{{product.name}}
+                    </h1>
+                    <div class="product-price">{{product.price | currency :'USD':true }}</div>
+                    <div class="product-description">{{product.description}}</div>
+                    
+                </div>
+                
+                <div class="product-details-button">
+                    <quantity-control [quantity]="quantity" (onChange)="changeQuantity($event)"></quantity-control>
+                    <div class="product-cart-button button button-primary button-large" (click)="addToCart(product)">Add to cart</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
