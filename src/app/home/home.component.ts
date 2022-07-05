@@ -29,27 +29,27 @@ export class HomeComponent implements OnInit {
   categories: any[] = [
     {
       name: 'Furniture',
-      img: 'https://rndlabcdn.azureedge.net/mtc-release/webar-hack-sporjo/merch.png',
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/furniture.png',
       industry: 'Furniture'
     },
     {
       name: 'Fashion',
-      img: 'https://rndlabcdn.azureedge.net/mtc-release/webar-hack-sporjo/equipment.png',
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/fashion.png',
       industry: 'Fashion'
     },
     {
       name: 'Food',
-      img: 'https://rndlabcdn.azureedge.net/mtc-release/webar-hack-sporjo/goat.png',
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/food.png',
       industry: 'Food'
     },
     {
       name: 'Machinery',
-      img: 'https://rndlabcdn.azureedge.net/mtc-release/webar-hack-sporjo/goat.png',
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/machinery.png',
       industry: 'Machinery'
     },
     {
       name: 'Sports',
-      img: 'https://rndlabcdn.azureedge.net/mtc-release/webar-hack-sporjo/goat.png',
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png',
       industry: 'Sports'
     }
 
@@ -58,42 +58,42 @@ export class HomeComponent implements OnInit {
   subCategoriesFurniture: any[] = [
     {
       name: 'Rack',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/jersey.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/rack.png'
     },
     {
       name: 'Table',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/logo-design.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/table.png'
     },
     {
       name: 'Sofa',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/logo-design.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/sofa.png'
     },
     {
       name: 'Chair',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/logo-design.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/chair.png'
     },
     {
       name: 'Lamp',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/logo-design.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/lamp.png'
     }
   ]
 
   subCategoriesFashion: any[] = [
     {
       name: 'Menswear',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/ball.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/menswear.png'
     },
     {
       name: 'Handbags',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/shoe.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/handbag.png'
     },
     {
       name: 'Footwear',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/trophy.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/footwear.png'
     },
     {
       name: 'Womenswear',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/stump.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/womenswear.png'
     }
   ]
 
@@ -101,19 +101,19 @@ export class HomeComponent implements OnInit {
 
     {
       name: 'Bakery',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://tulanedigcontent.blob.core.windows.net/sporjo-dataset/icons-all/bakery.png'
     },
     {
       name: 'Pizza',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/pizza.png'
     },
     {
       name: 'Barbeque',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/barbeque.png'
     },
     {
       name: 'Meal',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/meal.png'
     }
 
   ]
@@ -121,7 +121,7 @@ export class HomeComponent implements OnInit {
 
     {
       name: 'Printer',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/printer.png'
     }
 
   ]
@@ -129,23 +129,23 @@ export class HomeComponent implements OnInit {
 
     {
       name: 'Ball',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/ball.png'
     },
     {
       name: 'Shoe',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/footwear.png'
     },
     {
       name: 'Trophy',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/trophy.png'
     },
     {
       name: 'Bat',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/bat.png'
     },   
     {
       name: 'Headwear',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png'
+      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/headwear.png'
     }
 
   ]
