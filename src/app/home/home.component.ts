@@ -38,18 +38,13 @@ export class HomeComponent implements OnInit {
       industry: 'Fashion'
     },
     {
-      name: 'Food',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/food.png',
-      industry: 'Food'
-    },
-    {
       name: 'Machinery',
       img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/machinery.png',
       industry: 'Machinery'
     },
     {
       name: 'Sports',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons/goat.png',
+      img: 'https://tulanedigcontent.blob.core.windows.net/sporjo-dataset/Messi.png',
       industry: 'Sports'
     }
 
@@ -97,26 +92,26 @@ export class HomeComponent implements OnInit {
     }
   ]
 
-  subCategoriesFood: any[] = [
+  // subCategoriesFood: any[] = [
 
-    {
-      name: 'Bakery',
-      img: 'https://tulanedigcontent.blob.core.windows.net/sporjo-dataset/icons-all/bakery.png'
-    },
-    {
-      name: 'Pizza',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/pizza.png'
-    },
-    {
-      name: 'Barbeque',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/barbeque.png'
-    },
-    {
-      name: 'Meal',
-      img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/meal.png'
-    }
+  //   {
+  //     name: 'Bakery',
+  //     img: 'https://tulanedigcontent.blob.core.windows.net/sporjo-dataset/icons-all/bakery.png'
+  //   },
+  //   {
+  //     name: 'Pizza',
+  //     img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/pizza.png'
+  //   },
+  //   {
+  //     name: 'Barbeque',
+  //     img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/barbeque.png'
+  //   },
+  //   {
+  //     name: 'Meal',
+  //     img: 'https://rndlabcdn.azureedge.net/sporjo-dataset/icons-all/meal.png'
+  //   }
 
-  ]
+  // ]
   subCategoriesMachinery: any[] = [
 
     {
@@ -283,10 +278,10 @@ export class HomeComponent implements OnInit {
       console.log("inside fashion")
       this.subCategories = this.subCategoriesFashion;
     }
-    else if (industry == "Food") {
-      console.log("inside food")
-      this.subCategories = this.subCategoriesFood;
-    }
+    // else if (industry == "Food") {
+    //   console.log("inside food")
+    //   this.subCategories = this.subCategoriesFood;
+    // }
     else if (industry == "Machinery") {
       this.subCategories = this.subCategoriesMachinery;
     }
