@@ -108,11 +108,12 @@ export class ProductComponent implements OnInit {
     //         this.product = res.Product;
     //         // console.log(res)
     //     })
+    console.log("API TEST", environment.apiUrl+industry+'/'+id)
     this.sub = this._product.getProducts(environment.apiUrl+industry+'/'+id).subscribe(
         res=>{
           this.product = res.Product
           this.loading = false
-          // console.log(this.product)
+          console.log("prouct info",this.product)
         })
 };
 
